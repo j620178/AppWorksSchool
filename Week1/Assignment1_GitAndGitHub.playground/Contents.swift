@@ -41,9 +41,12 @@
 
  git log: 查詢已提交的Commit紀錄，如ID、時間、作者、Commit說明、歷史記錄等相關資訊
  =================use cases=================
- littlema (master *+) Reflections $ git commit
- [master f705221] Fix lesson1
- 1 file changed, 2 insertions(+), 1 deletion(-)
+ littlema (master) AppWorksSchool $ git log
+ commit 9c0b5382493ea371cde57ed569023883de219c77 (HEAD -> master, origin/master)
+ Author: littlema <j620178@gmail.com>
+ Date:   Sun Jun 16 10:36:58 2019 +0800
+ 
+ Add first version
  ===========================================
 
  git push [ Repo_name ] [ Branch_name ]: 由本地端的repository上傳到遠端repository，push後面分別為repository名稱與分支名稱
@@ -82,13 +85,20 @@
  * master
  ===========================================
  
- fork: Clone一份別人git的專案，但是藉由GitHub伺服器上進行Clone。好處是自己的專案與被Clone的專案具有連結。原作者
- =================use cases=================
+ fork: Clone一份別人git的專案，但是藉由GitHub伺服器上進行Clone。好處是自己的專案與被Clone原作者的專案具有連結。
  1.於別人的專案中，點選Fork按鈕
  2.完成Fork後即會跳回自身已Fork的專案頁面中
- 3.可點選Clone or Download，複製連結如：https://github.com/j620178/SwiftGuide.git
- 4.於Terminal中輸入『git clone https://github.com/j620178/SwiftGuide.git』，即可完成本地端下載
+ 3.可點選Clone or Download，複製連結如：https://github.com/j620178/Reflections.git
+ 4.於Terminal中輸入『git clone https://github.com/j620178/Reflections.git』，即可完成本地端下載
  5.之後就可以branch新的分支，commit新內容並push回GitHub中
+ =================use cases=================
+ littlema Git $ git clone https://github.com/j620178/Reflections.git
+ Cloning into 'Reflections'...
+ remote: Enumerating objects: 12, done.
+ remote: Counting objects: 100% (12/12), done.
+ remote: Compressing objects: 100% (8/8), done.
+ remote: Total 12 (delta 4), reused 12 (delta 4), pack-reused 0
+ Unpacking objects: 100% (12/12), done.
  ===========================================
 */
 
