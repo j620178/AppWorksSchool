@@ -1,7 +1,7 @@
 //Answer1
 let lottoNumbers = [10, 9, 8, 7, 6, 5]
 for lottoNumber in lottoNumbers[3...5] {
-        print(lottoNumber)
+    print(lottoNumber)
 }
 
 //Answer2-1
