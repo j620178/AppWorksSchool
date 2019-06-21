@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Assignment1_Object-Oriented Swift'/>
+        <page name='Assignment2_Enumerations and Optionals in Swift'/>
+        <page name='Assignment3_Protocol In Swift'/>
+        <page name='Assignment4_Error Handling in Swift'/>
+    </pages>
+</playground>
