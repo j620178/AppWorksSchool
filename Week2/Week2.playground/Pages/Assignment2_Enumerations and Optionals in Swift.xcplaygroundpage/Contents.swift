@@ -33,7 +33,7 @@ NewGasoline.oil92.rawValue
 
 
 //Answer1-4
-//可以在建立的時候，把資料夾帶在enum變數中，並透過 switch 判斷變數屬於那個 case ，再透過 let 取出夾帶在enum的值，使用方式如下：
+//可以在建立的時候，把資料夾帶在 enum 變數中，並透過 switch 判斷變數屬於那個 case ，再透過 let 取出夾帶在 enum 的值，使用方式如下：
 enum Position {
     case wgs84(x: Double, y: Double)
     case twd97(x: Double, y: Double)

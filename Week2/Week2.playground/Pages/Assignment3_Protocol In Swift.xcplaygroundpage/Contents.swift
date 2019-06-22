@@ -1,7 +1,7 @@
 //Answer1
 struct Person {
     let name: String
-    var toolMan: ToolMan //for Answer4
+    var toolMan: ToolMan //this line for Answer4
 }
 
 protocol PoliceMan {
