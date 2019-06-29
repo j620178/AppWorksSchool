@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Week3
+//  LoginAndSingup
 //
-//  Created by littlema on 2019/6/27.
+//  Created by littlema on 2019/6/29.
 //  Copyright © 2019 littema. All rights reserved.
 //
 

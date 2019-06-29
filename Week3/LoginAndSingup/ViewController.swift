@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Week3
+//  LoginAndSingup
 //
-//  Created by littlema on 2019/6/27.
+//  Created by littlema on 2019/6/29.
 //  Copyright © 2019 littema. All rights reserved.
 //
 
@@ -30,7 +30,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         view.addSubview(layout.stateSegment)
         view.addSubview(layout.inputUIView)
         view.addSubview(layout.button)
-
+        
         for aInput in userInputs {
             aInput.inputTextField.delegate = self
             
@@ -71,24 +71,24 @@ class ViewController: UIViewController, UITextFieldDelegate {
             layout.button.heightAnchor.constraint(equalToConstant: 30),
             layout.button.topAnchor.constraint(equalTo:layout.inputUIView.bottomAnchor, constant: 50),
             layout.button.centerXAnchor.constraint(equalTo: view.centerXAnchor)
-        ])
+            ])
     }
     
     func constraintInput(row: InitInputLayout, top: NSLayoutYAxisAnchor) {
         NSLayoutConstraint.activate([
-        row.inputContainerView.topAnchor.constraint(equalTo: top),
-        row.inputContainerView.widthAnchor.constraint(equalTo: layout.inputUIView.layoutMarginsGuide.widthAnchor),
-        row.inputContainerView.heightAnchor.constraint(equalTo: layout.inputUIView.heightAnchor, multiplier: 1/3),
-        row.inputContainerView.centerXAnchor.constraint(equalTo: layout.inputUIView.centerXAnchor),
-        
-        row.inputLabel.widthAnchor.constraint(equalTo: row.inputContainerView.widthAnchor, multiplier: 0.4),
-        row.inputLabel.leftAnchor.constraint(equalTo: row.inputContainerView.leftAnchor),
-        row.inputLabel.centerYAnchor.constraint(equalTo: row.inputContainerView.centerYAnchor),
-        
-        row.inputTextField.leadingAnchor.constraint(equalTo: row.inputLabel.trailingAnchor),
-        row.inputTextField.rightAnchor.constraint(equalTo: row.inputContainerView.rightAnchor),
-        row.inputTextField.centerYAnchor.constraint(equalTo: row.inputContainerView.centerYAnchor)
-        ])
+            row.inputContainerView.topAnchor.constraint(equalTo: top),
+            row.inputContainerView.widthAnchor.constraint(equalTo: layout.inputUIView.layoutMarginsGuide.widthAnchor),
+            row.inputContainerView.heightAnchor.constraint(equalTo: layout.inputUIView.heightAnchor, multiplier: 1/3),
+            row.inputContainerView.centerXAnchor.constraint(equalTo: layout.inputUIView.centerXAnchor),
+            
+            row.inputLabel.widthAnchor.constraint(equalTo: row.inputContainerView.widthAnchor, multiplier: 0.4),
+            row.inputLabel.leftAnchor.constraint(equalTo: row.inputContainerView.leftAnchor),
+            row.inputLabel.centerYAnchor.constraint(equalTo: row.inputContainerView.centerYAnchor),
+            
+            row.inputTextField.leadingAnchor.constraint(equalTo: row.inputLabel.trailingAnchor),
+            row.inputTextField.rightAnchor.constraint(equalTo: row.inputContainerView.rightAnchor),
+            row.inputTextField.centerYAnchor.constraint(equalTo: row.inputContainerView.centerYAnchor)
+            ])
     }
     
     @objc func checkButton() {
@@ -182,4 +182,3 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
     }
 }
-

@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74432AEE22C4C88C005ABE2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74432AED22C4C88C005ABE2B /* AppDelegate.swift */; };
-		74432AF022C4C88C005ABE2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74432AEF22C4C88C005ABE2B /* ViewController.swift */; };
-		74432AF322C4C88C005ABE2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74432AF122C4C88C005ABE2B /* Main.storyboard */; };
-		74432AF522C4C88E005ABE2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74432AF422C4C88E005ABE2B /* Assets.xcassets */; };
-		74432AF822C4C88E005ABE2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74432AF622C4C88E005ABE2B /* LaunchScreen.storyboard */; };
-		74432B0022C5A1C4005ABE2B /* LoginCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74432AFF22C5A1C4005ABE2B /* LoginCheck.swift */; };
+		74432B0E22C70209005ABE2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74432B0D22C70209005ABE2B /* AppDelegate.swift */; };
+		74432B1022C70209005ABE2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74432B0F22C70209005ABE2B /* ViewController.swift */; };
+		74432B1322C70209005ABE2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74432B1122C70209005ABE2B /* Main.storyboard */; };
+		74432B1522C7020B005ABE2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74432B1422C7020B005ABE2B /* Assets.xcassets */; };
+		74432B1822C7020B005ABE2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74432B1622C7020B005ABE2B /* LaunchScreen.storyboard */; };
+		74432B2022C70277005ABE2B /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74432B1F22C70277005ABE2B /* Layout.swift */; };
+		74432B2222C702BA005ABE2B /* CheckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74432B2122C702BA005ABE2B /* CheckModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		74432AEA22C4C88C005ABE2B /* Week3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week3.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		74432AED22C4C88C005ABE2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74432AEF22C4C88C005ABE2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		74432AF222C4C88C005ABE2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		74432AF422C4C88E005ABE2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		74432AF722C4C88E005ABE2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		74432AF922C4C88E005ABE2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74432AFF22C5A1C4005ABE2B /* LoginCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCheck.swift; sourceTree = "<group>"; };
+		74432B0A22C70209005ABE2B /* LoginAndSingup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginAndSingup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74432B0D22C70209005ABE2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74432B0F22C70209005ABE2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74432B1222C70209005ABE2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74432B1422C7020B005ABE2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74432B1722C7020B005ABE2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74432B1922C7020B005ABE2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74432B1F22C70277005ABE2B /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		74432B2122C702BA005ABE2B /* CheckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		74432AE722C4C88C005ABE2B /* Frameworks */ = {
+		74432B0722C70209005ABE2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		74432AE122C4C88B005ABE2B = {
+		74432B0122C70209005ABE2B = {
 			isa = PBXGroup;
 			children = (
-				74432AEC22C4C88C005ABE2B /* Week3 */,
-				74432AEB22C4C88C005ABE2B /* Products */,
+				74432B0C22C70209005ABE2B /* LoginAndSingup */,
+				74432B0B22C70209005ABE2B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		74432AEB22C4C88C005ABE2B /* Products */ = {
+		74432B0B22C70209005ABE2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74432AEA22C4C88C005ABE2B /* Week3.app */,
+				74432B0A22C70209005ABE2B /* LoginAndSingup.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		74432AEC22C4C88C005ABE2B /* Week3 */ = {
+		74432B0C22C70209005ABE2B /* LoginAndSingup */ = {
 			isa = PBXGroup;
 			children = (
-				74432AED22C4C88C005ABE2B /* AppDelegate.swift */,
-				74432AEF22C4C88C005ABE2B /* ViewController.swift */,
-				74432AFF22C5A1C4005ABE2B /* LoginCheck.swift */,
-				74432AF122C4C88C005ABE2B /* Main.storyboard */,
-				74432AF422C4C88E005ABE2B /* Assets.xcassets */,
-				74432AF622C4C88E005ABE2B /* LaunchScreen.storyboard */,
-				74432AF922C4C88E005ABE2B /* Info.plist */,
+				74432B0D22C70209005ABE2B /* AppDelegate.swift */,
+				74432B0F22C70209005ABE2B /* ViewController.swift */,
+				74432B1F22C70277005ABE2B /* Layout.swift */,
+				74432B2122C702BA005ABE2B /* CheckModel.swift */,
+				74432B1122C70209005ABE2B /* Main.storyboard */,
+				74432B1422C7020B005ABE2B /* Assets.xcassets */,
+				74432B1622C7020B005ABE2B /* LaunchScreen.storyboard */,
+				74432B1922C7020B005ABE2B /* Info.plist */,
 			);
-			path = Week3;
+			path = LoginAndSingup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		74432AE922C4C88C005ABE2B /* Week3 */ = {
+		74432B0922C70209005ABE2B /* LoginAndSingup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74432AFC22C4C88E005ABE2B /* Build configuration list for PBXNativeTarget "Week3" */;
+			buildConfigurationList = 74432B1C22C7020B005ABE2B /* Build configuration list for PBXNativeTarget "LoginAndSingup" */;
 			buildPhases = (
-				74432AE622C4C88C005ABE2B /* Sources */,
-				74432AE722C4C88C005ABE2B /* Frameworks */,
-				74432AE822C4C88C005ABE2B /* Resources */,
+				74432B0622C70209005ABE2B /* Sources */,
+				74432B0722C70209005ABE2B /* Frameworks */,
+				74432B0822C70209005ABE2B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Week3;
-			productName = Week3;
-			productReference = 74432AEA22C4C88C005ABE2B /* Week3.app */;
+			name = LoginAndSingup;
+			productName = LoginAndSingup;
+			productReference = 74432B0A22C70209005ABE2B /* LoginAndSingup.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		74432AE222C4C88B005ABE2B /* Project object */ = {
+		74432B0222C70209005ABE2B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = littema;
 				TargetAttributes = {
-					74432AE922C4C88C005ABE2B = {
+					74432B0922C70209005ABE2B = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 74432AE522C4C88B005ABE2B /* Build configuration list for PBXProject "Week3" */;
+			buildConfigurationList = 74432B0522C70209005ABE2B /* Build configuration list for PBXProject "LoginAndSingup" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 74432AE122C4C88B005ABE2B;
-			productRefGroup = 74432AEB22C4C88C005ABE2B /* Products */;
+			mainGroup = 74432B0122C70209005ABE2B;
+			productRefGroup = 74432B0B22C70209005ABE2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				74432AE922C4C88C005ABE2B /* Week3 */,
+				74432B0922C70209005ABE2B /* LoginAndSingup */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		74432AE822C4C88C005ABE2B /* Resources */ = {
+		74432B0822C70209005ABE2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74432AF822C4C88E005ABE2B /* LaunchScreen.storyboard in Resources */,
-				74432AF522C4C88E005ABE2B /* Assets.xcassets in Resources */,
-				74432AF322C4C88C005ABE2B /* Main.storyboard in Resources */,
+				74432B1822C7020B005ABE2B /* LaunchScreen.storyboard in Resources */,
+				74432B1522C7020B005ABE2B /* Assets.xcassets in Resources */,
+				74432B1322C70209005ABE2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		74432AE622C4C88C005ABE2B /* Sources */ = {
+		74432B0622C70209005ABE2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74432B0022C5A1C4005ABE2B /* LoginCheck.swift in Sources */,
-				74432AF022C4C88C005ABE2B /* ViewController.swift in Sources */,
-				74432AEE22C4C88C005ABE2B /* AppDelegate.swift in Sources */,
+				74432B1022C70209005ABE2B /* ViewController.swift in Sources */,
+				74432B0E22C70209005ABE2B /* AppDelegate.swift in Sources */,
+				74432B2222C702BA005ABE2B /* CheckModel.swift in Sources */,
+				74432B2022C70277005ABE2B /* Layout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		74432AF122C4C88C005ABE2B /* Main.storyboard */ = {
+		74432B1122C70209005ABE2B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				74432AF222C4C88C005ABE2B /* Base */,
+				74432B1222C70209005ABE2B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		74432AF622C4C88E005ABE2B /* LaunchScreen.storyboard */ = {
+		74432B1622C7020B005ABE2B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				74432AF722C4C88E005ABE2B /* Base */,
+				74432B1722C7020B005ABE2B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		74432AFA22C4C88E005ABE2B /* Debug */ = {
+		74432B1A22C7020B005ABE2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +231,7 @@
 			};
 			name = Debug;
 		};
-		74432AFB22C4C88E005ABE2B /* Release */ = {
+		74432B1B22C7020B005ABE2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,34 +286,34 @@
 			};
 			name = Release;
 		};
-		74432AFD22C4C88E005ABE2B /* Debug */ = {
+		74432B1D22C7020B005ABE2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Week3/Info.plist;
+				INFOPLIST_FILE = LoginAndSingup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.littlema.Week3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.littlema.LoginAndSingup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		74432AFE22C4C88E005ABE2B /* Release */ = {
+		74432B1E22C7020B005ABE2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Week3/Info.plist;
+				INFOPLIST_FILE = LoginAndSingup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.littlema.Week3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.littlema.LoginAndSingup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		74432AE522C4C88B005ABE2B /* Build configuration list for PBXProject "Week3" */ = {
+		74432B0522C70209005ABE2B /* Build configuration list for PBXProject "LoginAndSingup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74432AFA22C4C88E005ABE2B /* Debug */,
-				74432AFB22C4C88E005ABE2B /* Release */,
+				74432B1A22C7020B005ABE2B /* Debug */,
+				74432B1B22C7020B005ABE2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74432AFC22C4C88E005ABE2B /* Build configuration list for PBXNativeTarget "Week3" */ = {
+		74432B1C22C7020B005ABE2B /* Build configuration list for PBXNativeTarget "LoginAndSingup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74432AFD22C4C88E005ABE2B /* Debug */,
-				74432AFE22C4C88E005ABE2B /* Release */,
+				74432B1D22C7020B005ABE2B /* Debug */,
+				74432B1E22C7020B005ABE2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 74432AE222C4C88B005ABE2B /* Project object */;
+	rootObject = 74432B0222C70209005ABE2B /* Project object */;
 }
