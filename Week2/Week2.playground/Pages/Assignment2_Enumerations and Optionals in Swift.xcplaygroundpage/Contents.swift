@@ -1,35 +1,21 @@
-//Answer1-1
+//Answer1-1 ~ 1-3
 enum Gasoline: String {
-    case oil92
-    case oil95
-    case oil98
-    case diesel
-}
-
-
-//Answer1-2
-func getPricein(gasline: Gasoline) -> Double {
-    switch gasline {
-    case .oil92:
-        return 29.5
-    case .oil95:
-        return 30.5
-    case .oil98:
-        return 31.5
-    case .diesel:
-        return 28.5
-    }
-}
-
-
-//Answer1-3
-enum NewGasoline: String {
     case oil92 = "92"
     case oil95 = "95"
     case oil98 = "98"
     case diesel = "diesel"
+    
+    func getPrice() -> Double {
+        switch self {
+        case .oil92: return 29.5
+        case .oil95: return 30.5
+        case .oil98: return 31.5
+        case .diesel: return 28.5
+        }
+    }
 }
-NewGasoline.oil92.rawValue
+
+Gasoline.oil92.rawValue
 
 
 //Answer1-4
