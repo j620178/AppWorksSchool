@@ -14,6 +14,12 @@ enum CheckInputError: Error {
     case checkPasswordEmpty
 }
 
+enum CheckInputErrorDesc: String {
+    case accountEmpty = "Account should not be empty"
+    case passwordEmpty = "Password should not be empty"
+    case checkPasswordEmpty = "CheckPassword should not be empty"
+}
+
 //Answer3-3
 func checkUserInput(account: String, password: String, checkPassword: String, status: Int) throws {
     if account == "" {

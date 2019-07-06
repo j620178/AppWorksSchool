@@ -24,6 +24,8 @@ class InitLayout {
         segmented.tintColor = UIColor.black
         segmented.translatesAutoresizingMaskIntoConstraints = false
         
+        segmented.addTarget(ViewController.self, action: #selector(ViewController.indexChanged(_:)), for: .valueChanged)
+        
         return segmented
     }()
     var inputUIView: UIView = {
@@ -38,6 +40,9 @@ class InitLayout {
         button.tintColor = UIColor.white
         button.setTitle("Button", for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
+        
+        button.addTarget(ViewController.self, action: #selector(ViewController.checkButton), for: .touchUpInside)
+        
         return button
     }()
 }
@@ -66,8 +71,8 @@ class InitInputLayout {
         return textField
     }()
     
-    init(name:String, name2:String) {
-        self.inputLabel.text = name
-        self.inputTextField.placeholder = name2
+    init(labelText: String, placeholder: String) {
+        self.inputLabel.text = labelText
+        self.inputTextField.placeholder = placeholder
     }
 }

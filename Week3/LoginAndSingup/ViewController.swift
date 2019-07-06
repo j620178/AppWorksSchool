@@ -10,26 +10,24 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     var layout = InitLayout()
-    var row1 = InitInputLayout(name: "Acount", name2: "EnterAccount")
-    var row2 = InitInputLayout(name: "Password", name2: "EnterPassword")
-    var row3 = InitInputLayout(name: "Check", name2: "EnterPassword")
+    var row1 = InitInputLayout(labelText: "Acount", placeholder: "EnterAccount")
+    var row2 = InitInputLayout(labelText: "Password", placeholder: "EnterPassword")
+    var row3 = InitInputLayout(labelText: "Check", placeholder: "EnterPassword")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let userInputs = [row1, row2, row3]
-        
-        row3.inputLabel.textColor = UIColor.gray
-        row3.inputTextField.isUserInteractionEnabled = false
-        row3.inputTextField.backgroundColor = UIColor.gray
-        
-        layout.button.addTarget(self, action: #selector(checkButton), for: .touchUpInside)
-        layout.stateSegment.addTarget(self, action: #selector(ViewController.indexChanged(_:)), for: .valueChanged)
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
         
         view.addSubview(layout.titleLable)
         view.addSubview(layout.stateSegment)
         view.addSubview(layout.inputUIView)
         view.addSubview(layout.button)
+        
+        let userInputs = [row1, row2, row3]
         
         for aInput in userInputs {
             aInput.inputTextField.delegate = self
@@ -38,15 +36,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
             aInput.inputContainerView.addSubview(aInput.inputLabel)
             aInput.inputContainerView.addSubview(aInput.inputTextField)
         }
-    }
-    
-    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
         
         constraintLayout()
         constraintInput(row: row1, top: layout.inputUIView.topAnchor)
         constraintInput(row: row2, top: row1.inputContainerView.bottomAnchor)
         constraintInput(row: row3, top: row2.inputContainerView.bottomAnchor)
+        
+        row3.inputLabel.textColor = UIColor.gray
+        row3.inputTextField.isUserInteractionEnabled = false
+        row3.inputTextField.backgroundColor = UIColor.gray
     }
     
     func constraintLayout() {
@@ -97,11 +95,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
             guard let account = row1.inputTextField.text, let password = row2.inputTextField.text, let checkPassword = row3.inputTextField.text else { return }
             try checkUserInput(account: account, password: password, checkPassword: checkPassword, status: layout.stateSegment.selectedSegmentIndex)
         } catch CheckInputError.accountEmpty {
-            showAlert(title: "Error", message: "Account should not be empty")
+            showAlert(title: "Error", message: CheckInputErrorDesc.accountEmpty.rawValue)
         } catch CheckInputError.passwordEmpty {
-            showAlert(title: "Error", message: "Password should not be empty")
+            showAlert(title: "Error", message: CheckInputErrorDesc.passwordEmpty.rawValue)
         } catch CheckInputError.checkPasswordEmpty {
-            showAlert(title: "Error", message: "CheckPassword should not be empty")
+            showAlert(title: "Error", message: CheckInputErrorDesc.checkPasswordEmpty.rawValue)
         } catch let error {
             fatalError("\(error)")
         }
